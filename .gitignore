@@ -1,0 +1,17 @@
+# Build outputs
+*.obj
+*.lib
+*.exp
+d3d12.dll
+dxcapi.h
+
+# Generated from the local Windows D3D12 export table during build
+fwd.asm
+fwd_names.inc
+exports.rsp
+
+# Runtime logs and user shader data
+d3d12_proxy.log
+d3d12_proxy_loaded.txt
+d3d12_proxy_dump/
+d3d12_proxy_replace/
