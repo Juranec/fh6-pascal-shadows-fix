@@ -10,10 +10,11 @@ This is a community workaround, not official support. It only targets shaders th
 
 ## Install
 
-1. Download the Windows x64 release.
-2. Open the folder containing the game's executable. Back up any existing `d3d12.dll` or `d3d12_proxy.ini` there.
-3. Copy `d3d12.dll` and `d3d12_proxy.ini` into that folder. From the [DirectX Shader Compiler releases page](https://github.com/microsoft/DirectXShaderCompiler/releases), download a release ZIP, open it, and copy `dxcompiler.dll` and `dxil.dll` from `bin/x64` into the game folder. Always use both DLLs from the same package.
-4. Start the game. Matching shaders are patched as the game uses them; later launches use the saved copies.
+1. Download the latest release.
+2. Open the folder containing the game's `ForzaHorizon6.exe` executable.
+3. Copy `d3d12.dll` and `d3d12_proxy.ini` into that folder.
+4. From the [DirectX Shader Compiler releases page](https://github.com/microsoft/DirectXShaderCompiler/releases), download a release ZIP, open it, and copy `dxcompiler.dll` and `dxil.dll` from `bin/x64` into the game folder. Always use both DLLs from the same package.
+5. Start the game. Matching shaders are patched as the game uses them; later launches use the saved copies.
 
 The proxy writes a log and a loaded marker beside itself. It stores patched shaders in `d3d12_proxy_replace`. To uninstall, remove the files you copied and restore your backups.
 
