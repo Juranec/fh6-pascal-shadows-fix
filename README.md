@@ -6,6 +6,8 @@ Some game shaders use Variable Rate Shading, which Pascal GPUs do not support. T
 
 This is a community workaround, not official support. It only targets shaders that use this input, and may not fix every graphics issue.
 
+![Comparison screenshot](screenshot.png)
+
 ## Install
 
 1. Download the Windows x64 release.
